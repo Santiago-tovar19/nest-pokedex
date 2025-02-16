@@ -4,6 +4,10 @@
 /build
 /mongo
 
+.env
+
+.env.example
+
 # Logs
 logs
 *.log

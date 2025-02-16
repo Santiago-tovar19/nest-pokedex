@@ -16,6 +16,16 @@ $ yarn install
 $ docker-compose up
 ```
 
+5. clonar el archivo __.env.template__ y renombrar la copia a __.env__
+
+6. Llenar las variables de entorno en el __.env__
+
+7. reconstruir la base de datos
+```bash
+http://localhost:${PORT}/api/v1/seed
+
+```
+
 ## Stack Usado
 * NestJS
 * MongoDB
